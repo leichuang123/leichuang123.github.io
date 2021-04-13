@@ -1,0 +1,22 @@
+{
+    "name": "vue-doc",
+    "version": "1.0.0",
+    "description": "vue-press文档",
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "element-ui": "^2.15.1",
+        "vuepress-theme-vue": "^1.1.1"
+    },
+    "devDependencies": {
+        "vuepress": "^1.8.2",
+        "@vuepress/plugin-back-to-top": "1.8.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    },
+    "author": "",
+    "license": "ISC"
+}

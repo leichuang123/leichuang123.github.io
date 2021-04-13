@@ -1,0 +1,9 @@
+# 生成的静态资源
+docs/.vuepress/dist/
+
+# vscode编辑器配置文件
+.vscode/
+
+.DS_Store
+
+node_modules
