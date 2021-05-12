@@ -4,8 +4,6 @@
     "description": "vue-press文档",
     "main": "index.js",
     "dependencies": {
-        "axios": "^0.21.1",
-        "element-ui": "^2.15.1",
         "vuepress-theme-vue": "^1.1.1"
     },
     "devDependencies": {

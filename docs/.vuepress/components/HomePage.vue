@@ -1,6 +1,8 @@
 <template>
     <div class="is-center">
-        <img src="/bg.png">
+        <a class="doc-img" data-fancybox title="这是组件图片" href="/bg.png">
+            <img src="/bg.png" alt="这是组件图片">
+        </a>
     </div>
 </template>
 <script>
@@ -22,5 +24,6 @@ export default {
     margin-top: 50px;
     text-align: center;
     padding-top: 50px;
+    cursor: pointer;
 }
 </style>
